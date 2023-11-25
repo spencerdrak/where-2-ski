@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "where-2-ski"
+version = "0.1.0"
+description = ""
+authors = ["Spencer Drakontaidis <spencer@drakontaidis.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+scrapy = "^2.11.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+where-2-ski = "where_2_ski.main:main"
